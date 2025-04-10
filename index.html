@@ -3,75 +3,70 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Otaku Blog VIP</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <title>Página Minimalista</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
   <style>
-    body {
+    * {
       margin: 0;
-      font-family: 'Orbitron', sans-serif;
-      background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
-      color: #f5f5f5;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      min-height: 100vh;
-      padding: 30px;
+      padding: 0;
+      box-sizing: border-box;
     }
 
-    header {
-      text-align: center;
-      margin-bottom: 40px;
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f9f9f9;
+      color: #1a1a1a;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding: 20px;
     }
 
     h1 {
-      font-size: 3rem;
-      margin: 0;
-      color: #f72585;
-      text-shadow: 0 0 10px #f72585;
+      font-size: 2.5rem;
+      font-weight: 600;
+      margin-bottom: 10px;
     }
 
     p {
       font-size: 1.2rem;
+      font-weight: 300;
+      color: #444;
       max-width: 600px;
-      line-height: 1.5;
+      text-align: center;
     }
 
-    .card {
-      background-color: #212121;
+    .container {
+      text-align: center;
+      padding: 40px;
       border-radius: 12px;
-      padding: 20px;
-      box-shadow: 0 0 10px rgba(255, 0, 150, 0.3);
-      max-width: 700px;
-      width: 100%;
+      background-color: #fff;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
       transition: 0.3s ease;
     }
 
-    .card:hover {
-      transform: scale(1.02);
-      box-shadow: 0 0 20px rgba(255, 0, 150, 0.5);
+    .container:hover {
+      box-shadow: 0 8px 30px rgba(0,0,0,0.1);
     }
 
     footer {
-      margin-top: auto;
-      padding-top: 40px;
+      position: absolute;
+      bottom: 20px;
       font-size: 0.9rem;
-      color: #999;
+      color: #aaa;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Otaku Blog VIP</h1>
-    <p>Bem-vindo ao blog onde waifus, código e lucro se misturam numa sopa cibernética de caos e conhecimento.</p>
-  </header>
-
-  <div class="card">
-    <h2>🔥 Último Post</h2>
-    <p>Como usar a mente de um vilão de anime pra quebrar o algoritmo da Meta e lucrar com tráfego dark. Spoiler: não tem Kamehameha, mas tem ROAS 9000.</p>
+  <div class="container">
+    <h1>Visão Minimal</h1>
+    <p>Menos é mais. Essa página não grita, ela sussurra elegância no ouvido de quem entende.</p>
   </div>
 
   <footer>
-    &copy; 2025 - Feito no porão por um otaku do submundo digital.
+    &copy; 2025 - Criado na calada, com estética cirúrgica.
   </footer>
 </body>
 </html>
