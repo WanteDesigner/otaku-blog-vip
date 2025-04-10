@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="ja">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Página Minimalista</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>闇のマーケティング | ARTE DO BLACK</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   <style>
     * {
       margin: 0;
@@ -13,60 +13,58 @@
     }
 
     body {
-      font-family: 'Inter', sans-serif;
-      background-color: #f9f9f9;
-      color: #1a1a1a;
+      height: 100vh;
+      background: url('https://media.tenor.com/TnZoU2yrxjUAAAPo/hacker-hack.gif') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Press Start 2P', monospace;
+      color: #00ff9f;
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: center;
-      height: 100vh;
-      padding: 20px;
+      justify-content: center;
+      text-shadow: 0 0 10px #00ff9f;
+      overflow: hidden;
     }
 
     h1 {
-      font-size: 2.5rem;
-      font-weight: 600;
-      margin-bottom: 10px;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      animation: flicker 1s infinite alternate;
     }
 
     p {
-      font-size: 1.2rem;
-      font-weight: 300;
-      color: #444;
+      font-size: 0.8rem;
+      text-align: center;
       max-width: 600px;
-      text-align: center;
+      margin-bottom: 2rem;
     }
 
-    .container {
-      text-align: center;
-      padding: 40px;
-      border-radius: 12px;
-      background-color: #fff;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
-      transition: 0.3s ease;
+    a {
+      text-decoration: none;
+      color: #000;
+      background-color: #00ff9f;
+      padding: 1rem 2rem;
+      border-radius: 8px;
+      font-size: 0.8rem;
+      transition: 0.2s ease;
+      box-shadow: 0 0 10px #00ff9f;
     }
 
-    .container:hover {
-      box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+    a:hover {
+      background-color: #000;
+      color: #00ff9f;
+      box-shadow: 0 0 15px #00ff9f, 0 0 25px #00ff9f;
     }
 
-    footer {
-      position: absolute;
-      bottom: 20px;
-      font-size: 0.9rem;
-      color: #aaa;
+    @keyframes flicker {
+      0% { opacity: 1; }
+      100% { opacity: 0.7; }
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Visão Minimal</h1>
-    <p>Menos é mais. Essa página não grita, ela sussurra elegância no ouvido de quem entende.</p>
-  </div>
-
-  <footer>
-    &copy; 2025 - Criado na calada, com estética cirúrgica.
-  </footer>
+  <h1>⚔️ 闇のマーケティング ⚔️</h1>
+  <p>Bem-vindo à zona de guerra. Onde otaku vira operador, e cada clique vale um milhão.</p>
+  <a href="https://seulinkdeafiliado.com">ENTRAR NO CÓDIGO</a>
 </body>
 </html>
